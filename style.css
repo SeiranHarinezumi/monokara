@@ -9,37 +9,51 @@ body {
   font-family: YuMincho, 'Yu Mincho', serif;
 }
 
-.TopLogo{
+.TopLogo {
   text-align: center;
 }
 
-.TopLogo img{
+.TopLogo img {
   width: 18rem;
   margin-top: 2.5rem;
 }
 
-.TopPicture{
+.TopPicture {
   text-align: center;
 }
 
-.TopPicture iframe{
+.TopPicture iframe {
   width: 70rem;
   height: 35rem;
   margin-top: 2.5rem;
 }
 
-nav{
+/*
+nav {
+  margin-left: 25%;
+}
+
+nav ul{
   text-align: center;
 }
 
 nav li {
-    margin-top: 2rem;
   width: 140px;
   float: left;
+  margin: auto;
 }
 
 nav li a {
-  text-decoration: none;
   color: black;
   font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+*/
+
+
+
+main h1{
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
 }
