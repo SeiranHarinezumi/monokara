@@ -28,18 +28,20 @@ body {
   margin-top: 2.5rem;
 }
 
-/*
+
 nav {
-  margin-left: 25%;
+  width: 80%;
+  margin: auto;
 }
 
 nav ul{
-  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 nav li {
   width: 140px;
-  float: left;
   margin: auto;
 }
 
@@ -48,9 +50,6 @@ nav li a {
   font-weight: bold;
   letter-spacing: 0.2rem;
 }
-
-*/
-
 
 
 main h1{
