@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: YuMincho, 'Yu Mincho', serif;
+  font-family: 'Kiwi Maru', serif;
 }
 
 .TopLogo {
@@ -14,45 +14,120 @@ body {
 }
 
 .TopLogo img {
-  width: 18rem;
+  width: 25rem;
   margin-top: 2.5rem;
 }
 
 .TopPicture {
+  margin-top: 2.5rem;
   text-align: center;
 }
 
 .TopPicture iframe {
-  width: 70rem;
-  height: 35rem;
-  margin-top: 2.5rem;
+  border-radius: 2.5rem;
+  width: 80rem;
+  height: 44rem;
 }
-
 
 nav {
-  width: 80%;
+  width: 55%;
   margin: auto;
 }
 
-nav ul{
-  display:flex;
+nav ul {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-nav li {
-  width: 140px;
-  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 nav li a {
   color: black;
-  font-weight: bold;
+  font-size: 1.4rem;
   letter-spacing: 0.2rem;
 }
 
+main {
+  width: 70%;
+  margin: auto;
+}
 
-main h1{
-  font-size: 1.4rem;
+main h1 {
+  margin-bottom: 3.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-align: right;
+}
+
+.frame {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.block1 {
+  width: 25rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.block1 p {
+  text-align: right;
+  font-size: 1.1rem;
+}
+
+.explanation{
+  text-align: center;
+}
+
+.about img {
+  width: 50rem;
+  padding-bottom: 5rem;
+}
+
+.about p {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.opus p {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  margin-top: 5rem;
+}
+
+.opus a {
+  color: black;
+}
+
+.mozi1 {
+  margin-bottom: 5rem;
+}
+
+.mozi1 p {
+  text-align: left;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: gray;
+  padding: 5rem;
+  text-align: center;
+}
+
+footer a {
+  color: white;
   letter-spacing: 0.2rem;
 }
